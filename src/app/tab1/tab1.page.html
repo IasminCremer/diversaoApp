@@ -1,17 +1,59 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 1
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <h1>Um dia de chuva em NY</h1>
+
+        <h2>26 de julho de 2019</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/uPGq1mkEXznUpapDmOSxbsybjfp.jpg">
+        <p>Dois jovens chegam a Nova York para passar um fim de semana, mas, quando chegam, são confrontados
+          com o mau tempo e uma série de aventuras.</p>
+        <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+      </ion-col>
+
+      <ion-col size="6">
+        <h1>Capitã Marvel</h1>
+
+        <h2>6 de março de 2019</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg">
+        <p>A história segue Carol Danvers quando ela se torna um dos heróis mais poderosos do universo
+          quando a Terra é pega no meio de uma guerra galáctica entre duas raças alienígenas. Situado nos anos 90, a
+          Capitã Marvel é um…</p>
+        <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="6">
+        <h1>Guardiões da Galáxia</h1>
+
+        <h2>30 de julho de 2014</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/y31QB9kn3XSudA15tV7UWQ9XLuW.jpg">
+        <p>Anos-luz da Terra, 26 anos depois de ser seqüestrado, Peter Quill se vê o principal alvo
+          de uma caçada humana depois de descobrir um orbe desejado por Ronan, o Acusador.</p>
+        <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+      </ion-col>
+
+      <ion-col size="6">
+        <h1>Joker</h1>
+
+        <h2>2 outubro 2019</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg">
+        <p>Durante a década de 1980, um comediante de stand-up fracassado é levado à loucura e se
+          transforma em uma vida de crime e caos em Gotham City enquanto se torna uma figura infame do crime psicopata.
+        </p>
+        <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
